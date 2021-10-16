@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav-men">
+        <ul class="flex-row-div">
+            <li><img src="логотип.jpeg" width="150"></li>
+        <ul >
+            <li class="wrapper">
+                <a href="myself.html">О себе</a>
+            </li>
+            <li class="wrapper">
+                <a href="">Резюме</a>
+            </li>
+            <li class="wrapper"> 
+                <a href="">Портфолио</a>
+            </li>
+            <li class="wrapper">
+                <a href="">Компетенции</a>
+            </li>
+            <li class="wrapper">
+                <a href="">Контакты</a>
+            </li>
+        </ul>
+    </nav>
+</main>
+<table border="2">
+    <caption>Пример таблицы</caption>
+    <tbody>
+        <tr>
+            <th>текст заголовка1</th>
+            <th>текст заголовка2</th>
+            <th>текст заголовка3</th>
+        </tr>
+        <tr>
+            <td>Данные1.1</td>
+            <td>Данные1.2</td>
+            <td rowspan="2">данные</td> <!-- объединение строк-->
+        </tr>
+        <tr>
+            <td>Данные2.1</td>
+            <td>Данные2.2</td>
+        </tr>
+        <tr>
+            <td colspan="2">данные3.1</td> <!-- объединение столбцов-->
+            <td>Данные3.2</td>
+        </tr>
+    </tbody>
+    
+</table>
+<form action="" method="get">
+    <input type="submit" value="Отправить вопрос">
+    <input type="reset" value="очистить">
+</form>
+<div>
+    <div> Как вам удобно получать ответ:</div>
+    <label for="c_mail">
+    <input type="radio" name="com_tion" id="c_mail">по почте</label>
+    <br>
+    <label for="c_tel">
+    <input type="radio" name="com_tion" id="c_tel">по телефону</label>
+    <br>
+    <label for="c_none">
+    <input type="radio" name="com_tion" id="c_none">не нужно</label>
+    <br>
+</div>
+<div>
+    <div> И еще один вопрос?</div>
+    <label for="chb1">
+    <input type="checkbox" name="chb1" id="chb1">может так</label><br>
+    <label for="chb2">
+    <input type="checkbox" name="chb2" id="chb2">или не так</label><br>
+    <label for="chb3">
+    <input type="checkbox" name="chb3" id="chb3">иначе</label><br>
+</div>
+<div>
+    <label for="theme">Укажите тему вопроса</label><br>
+    <select name="them" id="theme">
+        <option value="work">работа</option>
+        <option value="cooperation">сотрудничество</option>
+        <option value="personal">личное</option>
+    </select>   
+</div>
+<div>
+    <label for="example">Пример текстового поля</label><br>
+    <input type="text" name="example" size="30" pattern="[A-Z]+" required>
+</div>
+<div>
+    <label for="email">адрес почты</label>
+    <input type="email" name="email" id="email">
+</div>
+<div>
+    <label for="tel">номер телефона</label>
+    <input type="tel" name="tel" id="tel">
+</div>
+<div>Ваш вопрос:</div>
+<div>
+    <textarea cols="20"></textarea>
+</div>
+    <a>Сайт разработан Титовой Татьяной, Copyright © 2021</a>
+</body>
+</html>
